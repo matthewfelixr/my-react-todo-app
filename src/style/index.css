@@ -25,6 +25,7 @@ body {
   }
   
   .todo-footer {
+    justify-content: center;
     border: 1px;
     border-top-color: #dddddd;
     border-left: none;
@@ -32,8 +33,21 @@ body {
     border-bottom: none;
     background-color: #f4fce8;
     margin: 0 -20px -10px -20px;
+    padding: 10px 20px;
   }
-  
+  .todo-footer p{
+    margin: 0;
+  }
   .mark-all-done {
     margin-top: 10px;
   }
+
+  .form-control {
+    border-radius: 0;
+  }
+  
+  .add-todo {
+    margin: 10px 0px;
+  }
+
+  
